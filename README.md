@@ -16,9 +16,9 @@ Nos han pedido una aplicación web denominada "S5.ACUDITS", que muestre chistes 
   ## Comenzando 🖌
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu ordenador local, para propósitos de desarrollo y pruebas:
 
-Abre la terminal y ejecuta: git clone https://github.com/ para descargar el proyecto, realiza un fork.
+Abre la terminal y ejecuta: git clone https://github.com/belcar-ceci/sprint_5.git para descargar el proyecto, realiza un fork.
 
-Para desplegar la página en funcionamiento puedes acceder aquí
+Para desplegar la página en funcionamiento puedes acceder aquí:
 
 ## Versión Desktop 🚀
 
