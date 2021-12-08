@@ -1,0 +1,218 @@
+body{
+  margin:0%;
+  padding: 0%;
+}
+
+main {
+    height: 75vh;
+    width: 100%;
+}
+footer{ 
+  height: 5vh;
+  left: 2%;
+  display: flex;
+  position: absolute;
+  bottom:0%;
+}
+
+section {
+    display: flex;
+    height: 78%;
+    width: 100%;
+    position: absolute;
+    /*background-color: coral;*/
+}
+.navbar {
+  height: 14vh;
+  background-color: transparent;
+  position: relative;;
+  top: 16px;
+  /*z-index: 1;*/ 
+}
+.container{
+  /*background-color: rgb(204, 0, 255);*/
+  width: 18%;
+  /* height: 194%; */
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather-container{
+  display: flex;
+}
+.weather-icon{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-right: thick double #0d0d0e;
+}
+.icon-img{
+  width: 65%;
+}
+.temperature-value .celsius{
+  padding: 50%;
+  text-align: center;
+}
+.temperature-description{
+  padding: 4%;
+}
+.description{
+  text-align: center;
+}
+.blob_left{
+  background-image: url(./images/blob-izq.svg);
+  /* transform: scale(.6); */
+  display: flex;
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 20vw;
+  width: 20vw;
+  /* margin: 0; */
+  left: 10%;
+  margin-top: 35%;
+}
+.blob_rigth{
+  background-image: url(./images/blob-der.svg);
+  display: flex;
+  position: absolute;
+  /* background-color: #FFCC22; */
+  background-repeat: no-repeat;
+  height: 17vw;
+  width: 17vw;
+  /* margin: 0; */
+  right: 3%;
+  /* align-content: flex-end; */
+  /* justify-content: flex-start; */
+  top: 0%;
+}
+
+
+.container_blob{
+  height: 73vw;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  transform: scale(.8);
+  position: relative;
+  /*background-color: burlywood;*/
+  bottom: 30%;
+    
+}
+.image_shower{
+  transform: scale(0.82);
+}
+.container_joke{
+  position: absolute;
+  width: 100%;
+    height: 90%;
+    /*background-color:rgb(47, 146, 38);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*margin: 10% 20% 10% 20%;*/
+  }
+  .chiste_mostrado{
+    position: relative;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    /*margin-top: 11%;*/
+    /*background: rgb(146, 38, 38);*/
+    /*padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.5);*/ 
+  }
+  .chiste_mostrado .titulo{
+    font-weight: 700;
+    font-size: 1.9em;
+    text-align: center;
+  }
+  
+  #chiste{
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    /*background-color: coral;*/
+  }
+
+
+.chiste-api .btn{
+  width: 17%;
+  height: 7%;
+  background: #FFCC22;
+  position: absolute;
+  outline: none;
+  border: none;
+  margin-top: 1%;
+  font-size: 1em;
+  box-shadow: 5px 10px 15px rgb(0 0 0 / 10%);
+  border-radius: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 40%;
+}
+  
+  
+.chiste-api .btn:hover{
+  background: #b42181;
+  color: #000000;
+  cursor:pointer;
+  }
+  
+.botones{
+  position: absolute;
+  display: flex;
+  margin-top: 20%;
+}
+  .score1{
+    background-image: url(./images/score_1.png);
+    background-repeat:no-repeat;
+    height:60px;
+    width:70px;
+    background-size: 50px 50px;
+    background-position:center;
+    background-color:transparent;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border: none;
+  }
+  .score2{
+    background-image: url(./images/score_2.png);
+    background-repeat:no-repeat;
+    height:60px;
+    width:70px;
+    background-size: 50px 50px;
+    background-position:center;
+    background-position:center;
+    background-color:transparent;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border: none;
+  }
+  .score3{
+    background-image: url(./images/score_3.png);
+    background-repeat:no-repeat;
+    height:60px;
+    width:70px;
+    background-size: 50px 50px;
+    background-position:center;
+    background-position:center;
+    background-color:transparent;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border: none;
+  }

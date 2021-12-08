@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator and Weather</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="weather-container">
+                <div class="weather-icon">
+                    <img src="/icons/unknown.png" alt="">
+                </div>
+                <div class="temperature-value">
+                    <p class="celsius"> - °<span>C</span></p>
+                </div>
+                <div class="temperature-description">
+                    <p class="description"> - </p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main -->
+    <main>
+        <section>
+            <div class="blob_left"></div>
+           
+            <div class=container_blob>
+                <img class="image_shower" src="./images/blob.svg" alt="">
+                <div class= container_joke>
+                    <div class="chiste_mostrado">
+                        <h3 class="titulo"> Preparat per riure? </h3>
+                        <p id="chiste"> </p>
+                    </div>
+                    <div class="botones">
+                        <button class="score1" onclick="valorarChiste(1)"></button>
+                        <button class="score2" onclick="valorarChiste(2)"></button>
+                        <button class="score3" onclick="valorarChiste(3)"></button>
+                    </div>
+                    <div class="chiste-api">
+                        <button class="btn" onclick="mostrarChiste()">Següent acudit</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blob_rigth">
+                
+            </div>
+
+        </section>
+    </main>
+    <!-- main -->
+    <!-- footer -->
+    <footer>
+       <!-- <h4>Hecho con💘  Cecilia.</h4>-->
+    </footer>
+    <!-- footer -->
+
+
+    <!--files JS-->
+    <script src="script.js"></script>
+    <script src= "weather.js"></script>
+</body>
+</html>
