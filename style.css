@@ -1,20 +1,19 @@
+@import url(/footer.css);
 body{
   margin:0%;
   padding: 0%;
+  height: 100vh;
 }
 
-main {
-    height: 75vh;
-    width: 100%;
-}
-footer{ 
+
+/*footer{ 
   height: 5vh;
   left: 2%;
   display: flex;
   position: absolute;
   bottom:0%;
 }
-
+*/
 section {
     display: flex;
     height: 78%;
@@ -131,16 +130,18 @@ section {
   }
   .chiste_mostrado .titulo{
     font-weight: 700;
-    font-size: 1.9em;
+    font-size: 1.6em;
     text-align: center;
+    margin-bottom: 14%;
+    margin-top: -6%;
   }
   
   #chiste{
     width: 100%;
-    padding: 20px;
+    padding: 14px;
     margin-top: 10px;
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     /*background-color: coral;*/
   }
 
